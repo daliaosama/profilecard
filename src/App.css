@@ -1,0 +1,86 @@
+main {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  height: 9rem;
+  background-image: url("../src/assets/images/bg-pattern-card.svg");
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#person {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 6rem;
+  border: 5px solid white;
+}
+#bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-grow: 1;
+}
+hr {
+  width: 100%;
+}
+#middle {
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  box-sizing: border-box;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+h3 {
+  margin-bottom: 0.5rem;
+  color: hsl(229, 23%, 23%);
+}
+#about {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 3rem;
+}
+.lab {
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+  font-weight: bold;
+}
+span
+ {
+  color: hsl(0, 0%, 59%);
+ font-size: 17px;
+}
+#country{
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 376px) {
+  main {
+    width: 85%;
+  }
+}
